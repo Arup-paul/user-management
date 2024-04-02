@@ -78,4 +78,9 @@ class UserController extends Controller
         $this->userService->deleteUserPermanently($id);
         return redirect()->route('users.trashed')->with('success', 'User permanently deleted successfully.');
     }
+
+
+
+
+
 }
